@@ -1,4 +1,4 @@
-# Minimalistic FastAPI React Docker Nginx
+# FastAPI React Nginx Docker Minimalistic Example
 A fixed and slighlty simplified version of https://github.com/vikramgulia/fastapi-react/tree/master 
 
 # About
@@ -15,4 +15,4 @@ This project is very simple, and could be a good introduction to these tools BUT
 - It uses outdated dependancies, such as create react app
 - Doesn't use all best practices. For example, it doesnt have a separate compose for development, and doesn't allow hot reloading of files during development. Therefore, developing with the docker container would be extremely impractical.
 
-Alternatively, I suggest you use: https://github.com/jonasrenault/fastapi-react-mongodb-docker/tree/main or maybe https://github.com/whythawk/full-stack-fastapi-postgresql . There are other options, incluiding the notable https://github.com/tiangolo/full-stack-fastapi-template , but many of them are currently broken, including that one, at least according to the issues.
+Alternatively, I suggest you use: [FastAPI React MongoDB Docker](https://github.com/jonasrenault/fastapi-react-mongodb-docker/) or possibly [Full Stack FastApi PosgreSQL](https://github.com/whythawk/full-stack-fastapi-postgresql). There are other options, incluiding  [full-stack-fastapi-template](https://github.com/tiangolo/full-stack-fastapi-template), but many of them are currently broken, including that one, at least according to the issues.
