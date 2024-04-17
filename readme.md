@@ -1,5 +1,5 @@
 # FastAPI React Nginx Docker Minimalistic Example
-A fixed and slighlty simplified version of https://github.com/vikramgulia/fastapi-react/tree/master 
+A fixed and slighlty simplified version of [FastAPI React](https://github.com/vikramgulia/fastapi-react/)
 
 # About
 The project has an nginx proxy, a react frontend, and a fastapi backend.
@@ -7,7 +7,7 @@ The project has an nginx proxy, a react frontend, and a fastapi backend.
 When you build the docker compose, html and javascript are produced from the frontend files, the fastapi backend is activated, and an nginx proxy is activated, which serves the html and javascript in most paths, and routes /api to fastapi.
 
 # Usage
-You can run it with docker compose up --build . You can then visit the webpage at http://localhost
+You can run it with ***docker compose up --build** . You can then visit the webpage at http://localhost
 
 
 # Important warning
